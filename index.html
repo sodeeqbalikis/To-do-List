@@ -7,22 +7,29 @@
     <title>To-do List App</title>
     <link rel="stylesheet" href="todo.css">
 </head>
-<body>
+<body class="darkmode">
+
     <header>
         <marquee behavior="" direction="left">Subtracting from your list of priorities is as important as adding to it</marquee>
+        <select id="mode">
+            <option id="dark">Dark Mode</option>
+            <option id="light">Light Mode</option>
+        </select>
     </header>
     <div class="pop">
         <div class="app">
             <div id="name">Sodeeq Balikis</div>
             <div id="do">To-Do App</div>
+            <!-- <select id="mode">
+                <option value="">Dark Mode</option>
+                <option value="">Light Mode</option>
+            </select> -->
         </div>
         <input type="text"  id="enter" placeholder="Enter To-do"/>
         <div>
             <button id="btn">Add</button>
         </div>
-        <ul id="list">
-            
-        </ul>
+        <div id="list"></div>
     </div>
 </body>
 </html>

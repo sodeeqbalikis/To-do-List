@@ -5,12 +5,18 @@ body{
    background-repeat:no-repeat;
    background-size: cover;
 }
+.darkmode{
+    background-color: black;
+    color: white;
+}
 header{
     border: 1px solid #0063B2FF;
     width: 100%;
     height:15%;
     background-image: linear-gradient(#0063B2FF,#9cc3d5ff);
     backdrop-filter: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .pop{
     border: 3px solid black;
@@ -29,6 +35,10 @@ header{
     color: black;
     text-shadow: 3px 3px 5px #0063B2FF;
     font-size: larger;
+}
+#mode{
+    border: 1px solid black;
+    padding: 10px;
 }
 #do{
     color: black;
